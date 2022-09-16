@@ -1,0 +1,20 @@
+name: Test
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["**"]
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: ["14", "16", "18"]
+    uses: ybiquitous/.github/.github/workflows/nodejs-test-reusable.yml@main
+    with:
+      node-version: ${{ matrix.node-version }}
+
+  lint:
+    uses: ybiquitous/.github/.github/workflows/nodejs-lint-reusable.yml@main
