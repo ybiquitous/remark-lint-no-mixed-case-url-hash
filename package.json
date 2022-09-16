@@ -39,7 +39,7 @@
     "lint:md:fix": "remark . --output",
     "lint:types": "tsc --noEmit",
     "lint:types:watch": "npm run lint:types -- --watch",
-    "lint:commit": "echo skip || commitlint --from HEAD~10",
+    "lint:commit": "commitlint --from HEAD~3",
     "lint": "npm-run-all --print-label --silent --parallel lint:*",
     "prettier": "prettier --cache --ignore-path .gitignore .",
     "lint:styles": "npm run prettier -- --check",
