@@ -1,0 +1,20 @@
+{
+  "name": "remark-lint-no-mixed-case-url-hash",
+  "version": "0.0.1",
+  "description": "A remark-lint rule disallows a mixed-case URL hash",
+  "author": "Masafumi Koba",
+  "license": "ISC",
+  "keywords": [
+    "remark-lint",
+    "remark-lint-rule"
+  ],
+  "repository": "ybiquitous/remark-lint-no-mixed-case-url-hash",
+  "type": "module",
+  "exports": "./index.js",
+  "devDependencies": {
+    "ybiq": "^15.4.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
