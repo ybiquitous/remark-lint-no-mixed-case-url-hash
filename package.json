@@ -26,12 +26,12 @@
     "remark": "^14.0.2",
     "remark-preset-ybiquitous": "^0.3.1",
     "typescript": "^4.9.4",
-    "ybiq": "^15.4.1"
+    "ybiq": "^15.5.3"
   },
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
-    "test:watch": "npm run test --ignore-scripts -- --watch",
-    "test:coverage": "npm run test --ignore-scripts -- --coverage",
+    "test:watch": "npm --ignore-scripts test -- --watch",
+    "test:coverage": "npm --ignore-scripts test -- --coverage",
     "pretest": "npm run lint",
     "lint:js": "eslint --cache --ext=js,jsx,cjs,mjs,ts,tsx .",
     "lint:js:fix": "npm run lint:js -- --fix",
@@ -39,7 +39,7 @@
     "lint:md:fix": "remark . --output",
     "lint:types": "tsc --noEmit",
     "lint:types:watch": "npm run lint:types -- --watch",
-    "lint:commit": "commitlint --from HEAD~3",
+    "lint:commit": "commitlint --from HEAD~10",
     "lint": "npm-run-all --print-label --silent --parallel lint:*",
     "prettier": "prettier --cache --ignore-path .gitignore .",
     "lint:styles": "npm run prettier -- --check",
