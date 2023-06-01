@@ -103,5 +103,8 @@
         "extends": "plugin:jest/recommended"
       }
     ]
+  },
+  "publishConfig": {
+    "provenance": true
   }
 }
