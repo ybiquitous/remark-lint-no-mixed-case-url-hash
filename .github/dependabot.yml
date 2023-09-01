@@ -8,9 +8,6 @@ updates:
     groups:
       development-dependencies:
         dependency-type: "development"
-        exclude-patterns:
-          - "remark"
-          - "remark-*"
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
