@@ -24,7 +24,7 @@ const remarkLintNoMixedCaseUrlHash = lintRule(
     origin: "remark-lint:no-mixed-case-url-hash",
     url: "https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash#readme",
   },
-  rule
+  rule,
 );
 
 export default remarkLintNoMixedCaseUrlHash;

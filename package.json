@@ -26,7 +26,7 @@
     "remark": "^14.0.3",
     "remark-preset-ybiquitous": "^0.3.1",
     "typescript": "^5.1.6",
-    "ybiq": "^16.1.0"
+    "ybiq": "^16.2.1"
   },
   "scripts": {
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
