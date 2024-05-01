@@ -1,6 +1,6 @@
 {
   "name": "remark-lint-no-mixed-case-url-hash",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A remark-lint rule disallows a mixed-case URL hash",
   "author": "Masafumi Koba",
   "license": "MIT",
