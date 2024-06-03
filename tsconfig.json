@@ -1,4 +1,4 @@
 {
   "extends": "@tsconfig/strictest",
-  "exclude": ["**/*.test.*", "coverage/**"],
+  "exclude": ["**/*.test.*", "coverage/**"]
 }
