@@ -15,7 +15,7 @@
     "index.js"
   ],
   "dependencies": {
-    "unified-lint-rule": "^3.0.0",
+    "unified-lint-rule": "^3.0.1",
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
