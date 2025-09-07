@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/compare/v0.0.2...v0.1.0) (2025-09-07)
+
+### ⚠ BREAKING CHANGES
+
+- require Node.js 20 or later (#96)
+
+### Features
+
+- require Node.js 20 or later ([#96](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/issues/96)) ([82520a9](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/commit/82520a91755a6064da19c9d9c0b871bf4d732a5f))
+
 ### [0.0.2](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/compare/v0.0.1...v0.0.2) (2024-05-01)
 
 ### Features
