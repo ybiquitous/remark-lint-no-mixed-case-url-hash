@@ -1,3 +1,6 @@
+import assert from "node:assert/strict";
+import test from "node:test";
+
 import { remark } from "remark";
 
 import rule from "./index.js";
@@ -14,7 +17,7 @@ function runRule(code) {
 }
 
 test("only hash", () => {
-  expect(runRule("[foo](#fooBar)")).toEqual([
+  assert.deepEqual(runRule("[foo](#fooBar)"), [
     {
       column: 1,
       line: 1,
@@ -26,7 +29,7 @@ test("only hash", () => {
 });
 
 test("file with hash", () => {
-  expect(runRule("[foo](foo.md#Bar)")).toEqual([
+  assert.deepEqual(runRule("[foo](foo.md#Bar)"), [
     {
       column: 1,
       line: 1,
@@ -38,9 +41,9 @@ test("file with hash", () => {
 });
 
 test("empty hash", () => {
-  expect(runRule("[foo](foo.md#)")).toEqual([]);
+  assert.deepEqual(runRule("[foo](foo.md#)"), []);
 });
 
 test("no url", () => {
-  expect(runRule("[foo]()")).toEqual([]);
+  assert.deepEqual(runRule("[foo]()"), []);
 });
