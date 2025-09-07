@@ -14,6 +14,9 @@
   "files": [
     "index.js"
   ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "unified-lint-rule": "^3.0.1",
     "unist-util-visit": "^5.0.0"
