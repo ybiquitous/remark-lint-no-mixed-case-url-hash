@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/strictest",
   "compilerOptions": {
+    "checkJs": true,
     "noEmit": true
   },
   "include": ["**/*"],
