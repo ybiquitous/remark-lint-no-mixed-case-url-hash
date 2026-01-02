@@ -1,7 +1,3 @@
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
 ## [0.1.0](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/compare/v0.0.2...v0.1.0) (2025-09-07)
 
 ### ⚠ BREAKING CHANGES
@@ -12,7 +8,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 - require Node.js 20 or later ([#96](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/issues/96)) ([82520a9](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/commit/82520a91755a6064da19c9d9c0b871bf4d732a5f))
 
-### [0.0.2](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/compare/v0.0.1...v0.0.2) (2024-05-01)
+## [0.0.2](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/compare/v0.0.1...v0.0.2) (2024-05-01)
 
 ### Features
 
@@ -22,4 +18,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 - **deps:** bump unified-lint-rule from 2.1.2 to 3.0.0 ([#68](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/issues/68)) ([0659a0e](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/commit/0659a0ef8aa26a361d685f94a5684eba01294980))
 
-### 0.0.1 (2022-09-16)
+### Reverts
+
+- Revert "chore(deps): remove `exclude-patterns` from Dependabot group updates" ([6b89136](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/commit/6b8913612976597241ca495b084264aca47ce9e6))
+
+## 0.0.1 (2022-09-16)
