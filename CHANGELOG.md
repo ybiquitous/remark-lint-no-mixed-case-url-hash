@@ -1,5 +1,7 @@
 ## [0.1.1](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/compare/v0.1.0...v0.1.1) (2026-01-02)
 
+No actual changes.
+
 ## [0.1.0](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/compare/v0.0.2...v0.1.0) (2025-09-07)
 
 ### ⚠ BREAKING CHANGES
