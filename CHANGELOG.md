@@ -18,8 +18,4 @@
 
 - **deps:** bump unified-lint-rule from 2.1.2 to 3.0.0 ([#68](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/issues/68)) ([0659a0e](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/commit/0659a0ef8aa26a361d685f94a5684eba01294980))
 
-### Reverts
-
-- Revert "chore(deps): remove `exclude-patterns` from Dependabot group updates" ([6b89136](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/commit/6b8913612976597241ca495b084264aca47ce9e6))
-
 ## 0.0.1 (2022-09-16)
