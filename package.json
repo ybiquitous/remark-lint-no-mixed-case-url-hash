@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@tsconfig/strictest": "^2.0.8",
-    "eslint-plugin-n": "^17.23.2",
+    "eslint-plugin-n": "^17.24.0",
     "remark": "^15.0.1",
     "remark-preset-ybiquitous": "^0.5.1",
     "typescript": "^5.9.3",
