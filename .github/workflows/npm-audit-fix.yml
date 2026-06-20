@@ -14,5 +14,3 @@ jobs:
     steps:
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
       - uses: ybiquitous/npm-audit-fix-action@8d5eb3096dc8738e6dbac6a3e58402bb15da4f66 # v7.3.9
-        with:
-          github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
