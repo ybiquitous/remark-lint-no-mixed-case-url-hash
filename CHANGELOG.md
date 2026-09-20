@@ -1,3 +1,7 @@
+# Changelog
+
+<!-- lint disable no-duplicate-headings -->
+
 ## [0.1.1](https://github.com/ybiquitous/remark-lint-no-mixed-case-url-hash/compare/v0.1.0...v0.1.1) (2026-01-02)
 
 No actual changes.
