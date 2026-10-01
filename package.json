@@ -23,11 +23,11 @@
   },
   "devDependencies": {
     "@tsconfig/strictest": "^2.0.8",
-    "eslint-plugin-n": "^18.3.0",
+    "eslint-plugin-n": "^18.4.0",
     "remark": "^15.0.1",
     "remark-preset-ybiquitous": "^0.5.1",
     "typescript": "^7.0.2",
-    "ybiq": "^22.0.0"
+    "ybiq": "^22.2.0"
   },
   "scripts": {
     "test": "node --test",
